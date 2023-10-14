@@ -1,0 +1,20 @@
+.oneCard{
+    background-color: rgba(228, 152, 165, 0.361);
+    min-height: 170px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.cardBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteIcon{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.inputSearch {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 770px) {
+  .inputSearch {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inputSearch {
+    width: 85vw;
+  }
+}

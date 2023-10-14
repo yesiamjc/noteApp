@@ -1,0 +1,47 @@
+.addNote{
+    background-color: #a995e1;
+    min-height: 170px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noteCard{
+    background-color: #a995e1;
+    border: none;
+    resize: none;
+}
+
+.noteCard:focus{
+outline: none;
+}
+
+.noteCard::placeholder{
+    color: aliceblue;
+}
+
+.save{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save:focus{
+    outline: none;
+}
+
+.save:hover{
+    background-color: brown;
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+
+.addFoot{
+    background-color: #a995e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
